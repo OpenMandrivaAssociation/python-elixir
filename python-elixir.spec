@@ -3,7 +3,7 @@
 Summary:	Declarative mapper on top of SQLAlchemy
 Name:		python-elixir
 Version:	0.6.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT
 Group:		Development/Python
 URL:		http://www.sqlalchemy.org/
@@ -12,6 +12,7 @@ BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Requires:   python-sqlalchemy
 
 %description
 A declarative layer on top of SQLAlchemy. It is a fairly thin wrapper, which 
