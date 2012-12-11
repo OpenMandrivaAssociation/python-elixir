@@ -46,3 +46,23 @@ definitions.
 %doc README 
 %{python_sitelib}/elixir
 %{python_sitelib}/%{module_name}-%{version}-py*.egg-info/
+
+
+%changelog
+* Thu Jan 28 2010 Frederik Himpe <fhimpe@mandriva.org> 0.7.1-1mdv2010.1
++ Revision: 497766
+- Update to new version 0.7.1
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.6.1-3mdv2010.0
++ Revision: 442102
+- rebuild
+
+* Mon Mar 16 2009 Michael Scherer <misc@mandriva.org> 0.6.1-2mdv2009.1
++ Revision: 355571
+- add missing Requires on SQLAlchemy
+
+* Mon Mar 16 2009 Michael Scherer <misc@mandriva.org> 0.6.1-1mdv2009.1
++ Revision: 355563
+- import python-elixir
+
+
