@@ -3,7 +3,7 @@
 Summary:	Declarative mapper on top of SQLAlchemy
 Name:		python-elixir
 Version:	0.7.1
-Release:	%mkrel 1
+Release:	2
 License:	MIT
 Group:		Development/Python
 URL:		http://www.sqlalchemy.org/
