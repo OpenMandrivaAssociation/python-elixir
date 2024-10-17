@@ -6,7 +6,7 @@ Version:	0.7.1
 Release:	2
 License:	MIT
 Group:		Development/Python
-URL:		http://www.sqlalchemy.org/
+URL:		https://www.sqlalchemy.org/
 Source0:	http://pypi.python.org/packages/source/E/%{module_name}/%{module_name}-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
